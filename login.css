@@ -1,0 +1,110 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #0a0a0a; /* Dark background */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login container */
+.login-container {
+    background-color: #121212; /* Dark grey card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 162, 255, 0.5);
+    text-align: center;
+    width: 350px;
+}
+
+/* Form inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 16px;
+}
+
+/* Placeholder text color */
+input::placeholder {
+    color: #bbbbbb;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Button styling (Login, Register, Forgot Password) */
+.btn {
+    flex: 1;
+    padding: 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for links that look like buttons */
+.btn-link {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    flex: 1;
+    transition: 0.3s;
+}
+
+/* Hover effect for links */
+.btn-link:hover {
+    background-color: #0056b3;
+}
+
+/* Error message */
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Register link */
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: #00a2ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
